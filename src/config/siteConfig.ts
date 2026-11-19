@@ -70,13 +70,13 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		homeText: {
 			// 仅在首页 Banner 中显示，标题与副标题会上下居中排列。
 			enable: true,
-			title: "Shirone",
+			title: "Rb9-1376",
 			subtitle: [
 				"BUG 不会凭空消失，只是换了个地方潜伏。",
 				"注释写给自己看，下次自己都看不懂。",
 				"需求：就简单改一点点。",
 				"我不是在写代码，我是在和编译器谈判。",
-				"今日はなんでもない日。でも、ちょっとだけいい日",
+				"没有什么是加一层封装解决不了的，如果有，就再加一层。",
 			],
 			typewriter: {
 				// 副标题逐字显示；关闭后直接显示完整副标题。
