@@ -3,7 +3,7 @@ import type {
 	ResolvedTextureOptions,
 	TextureConfig,
 } from "@/types/textureConfig";
-import { withUserConfig } from "../utils/config-overlay";
+import { withUserConfig } from "../utils/config-overlay.ts";
 
 /**
  * 站点核心配置：标题 / 语言 / 主题色（HCT 动态配色）/ 横幅 / 目录 / 进度条 / favicon。
