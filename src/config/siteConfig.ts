@@ -3,17 +3,17 @@ import type {
 	ResolvedTextureOptions,
 	TextureConfig,
 } from "@/types/textureConfig";
-import { withUserConfig } from "../utils/config-overlay.ts";
+import { withUserConfig } from "../utils/config-overlay";
 
 /**
  * 站点核心配置：标题 / 语言 / 主题色（HCT 动态配色）/ 横幅 / 目录 / 进度条 / favicon。
  * 类型见 src/types/config.ts。
  */
 export const siteConfig: SiteConfig = withUserConfig("site", {
-	site: "https://shirone.mysqil.com/",
+	site: "https://www.691376.xyz",
 	base: "/",
-	title: "Shirone",
-	subtitle: "A Material 3 anime blog",
+	title: "Rb9-1376's Blog",
+	subtitle: "Make Science Great Again",
 	// 电脑端顶栏标题与导航内容区域："left" 左对齐，"center" 居中。
 	topAppBar: {
 		contentAlign: "center",
@@ -27,7 +27,7 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 		reduceMotion: true, // 是否展示减少动效切换
 		texture: true, // 是否展示背景纹理选择
 	},
-	lang: "en", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
+	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	// IANA time zone for precise post and moment timestamps. It is independent of lang.
 	timeZone: "Asia/Shanghai",
 	themeColor: {
@@ -72,10 +72,10 @@ export const siteConfig: SiteConfig = withUserConfig("site", {
 			enable: true,
 			title: "Shirone",
 			subtitle: [
-				"特別なことはないけど、君がいると十分です",
-				"今でもあなたは私の光",
-				"君ってさ、知らないうちに私の毎日になってたよ",
-				"君と話すと、なんか毎日がちょっと楽しくなるんだ",
+				"BUG 不会凭空消失，只是换了个地方潜伏。",
+				"注释写给自己看，下次自己都看不懂。",
+				"需求：就简单改一点点。",
+				"我不是在写代码，我是在和编译器谈判。",
 				"今日はなんでもない日。でも、ちょっとだけいい日",
 			],
 			typewriter: {
