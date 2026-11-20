@@ -18,27 +18,11 @@ export interface FriendItem {
 export const friendsData: FriendItem[] = [
 	{
 		id: 1,
-		title: "Mizuki",
-		imgurl: "https://avatars.githubusercontent.com/u/225602409?v=4&s=640",
-		desc: "Another Fuwari-based blog theme with docs",
-		siteurl: "https://mizuki.mysqil.com",
+		title: "CPer",
+		imgurl: "https://blog.510904.xyz/_astro/avatar.C4n0Vsi2_1NnBIn.webp",
+		desc: "One of the best front-end developers in China, a web designer, and a blogger.",
+		siteurl: "https://www.510904.xyz",
 		tags: ["Blog", "Theme"],
-	},
-	{
-		id: 2,
-		title: "Astro",
-		imgurl: "https://avatars.githubusercontent.com/u/44914786?v=4&s=640",
-		desc: "The web framework for content-driven websites",
-		siteurl: "https://astro.build",
-		tags: ["Framework"],
-	},
-	{
-		id: 3,
-		title: "Material 3",
-		imgurl: "https://avatars.githubusercontent.com/u/19478152?v=4&s=640",
-		desc: "Material Design 3 — the next generation of Material Design",
-		siteurl: "https://m3.material.io",
-		tags: ["Design"],
 	},
 ];
 
