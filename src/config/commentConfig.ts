@@ -41,7 +41,7 @@ export const commentConfig: CommentConfig = withUserConfig("comment", {
 	/** 评论提供商类型："none" | "twikoo" | "giscus" | "waline" */
 	provider: "giscus",
 	/** 是否开启视口懒加载：滚动进入视口才动态加载评论组件（推荐 true） */
-	lazy: false,
+	lazy: true,
 	/** Twikoo 专有配置 */
 	twikoo: {
 		/** Twikoo 环境 ID（如 "https://your-twikoo.vercel.app" 或腾讯云环境 ID） */
